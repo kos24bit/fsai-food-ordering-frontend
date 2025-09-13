@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>++++Welcome to our food ordering on line System++++</title>
+        <link rel="stylesheet" href="application.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to our food ordering on line System</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Select Menu</a></li>
+                    <li><a href="#cart">Check your Cart</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="menu" class="section">
+            <h2>Select your options from the below Menu</h2>
+
+            <table>
+                <tr>
+                    <th>Mousaka</th>
+                    <th>€10.00</th>
+                    <th><img src="./images/mousaka.jpg" alt="mousaka" width="100" height="100" /></th>
+                    <th><button class="add-order">Add order to Cart</button></th>
+                </tr>
+
+                <tr>
+                    <th>Greek Salad</th>
+                    <th>€5.00</th>
+                    <th><img src="./images/greek-salad.jpg" alt="salad" width="100" height="100" /></th>
+                    <th><button class="add-order">Add order to Cart</button></th>
+                </tr>
+
+                <tr>
+                    <th>Greek Souvlaki</th>
+                    <th>€5.00</th>
+                    <th><img src="./images/greek-souvlaki.jpg" alt="souvlaki" width="100" height="100" /></th>
+                    <th><button class="add-order">Add order to Cart</button></th>
+                </tr>
+
+                <tr>
+                    <th>Spinach Pie</th>
+                    <th>€5.00</th>
+                    <th>
+                        <img src="./images/spinach-pie-greek-food.jpg.webp" alt="SpinachS" width="100" height="100" />
+                    </th>
+                    <th><button class="add-order">Add order to Cart</button></th>
+                </tr>
+
+                <tr>
+                    <th>Kalamari</th>
+                    <th>€20.00</th>
+                    <th>
+                        <img src="./images/spinach-pie-greek-food.jpg.webp" alt="Kalamari" width="100" height="100" />
+                    </th>
+                    <th><button class="add-order">Add order to Cart</button></th>
+                </tr>
+
+                <tr>
+                    <th>Saganaki Cheese</th>
+                    <th>€5.00</th>
+                    <th>
+                        <img src="./images/greek-food-1-saganaki.jpg" alt="Saganaki-cheese" width="100" height="100" />
+                    </th>
+                    <th><button class="add-order">Add order to Cart</button></th>
+                </tr>
+
+                <tr>
+                    <th>Fried Potatos</th>
+                    <th>€5.00</th>
+                    <th><img src="./images/greek-potatoes.jpg" alt="Potatoes-chips" width="100" height="100" /></th>
+                    <th><button class="add-order">Add order to Cart</button></th>
+                </tr>
+            </table>
+        </section>
+
+        <section id="cart" class="section">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items will be added here dynamically -->
+            </div>
+            <div id="total-price">Total Price: €0.00</div>
+            <button id="checkout-btn">Checkout</button>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Full Stack AI - Ordering Website. All rights reserved.</p>
+        </footer>
+
+        <button>Place Order</button>
+
+        <script src="application1.js"></script>
+    </body>
+</html>
